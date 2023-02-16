@@ -1,0 +1,95 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-02-13T19:43:44.864Z",
+    "end": "2023-02-13T19:43:45.024Z",
+    "duration": 160,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c74965f3-8ac5-4559-b159-ea384cb3c927",
+      "title": "",
+      "fullFile": "cypress/integration/AllTests/ExperimentalTest.js",
+      "file": "cypress/integration/AllTests/ExperimentalTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "An uncaught error was detected outside of a test",
+          "fullTitle": "An uncaught error was detected outside of a test",
+          "timedOut": null,
+          "duration": 140,
+          "state": "failed",
+          "speed": null,
+          "pass": false,
+          "fail": true,
+          "pending": false,
+          "context": null,
+          "code": "",
+          "err": {
+            "message": "TypeError: The following error originated from your test code, not from Cypress.\n\n  > Cannot read properties of undefined (reading 'beforeEach')\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.",
+            "estack": "TypeError: The following error originated from your test code, not from Cypress.\n\n  > Cannot read properties of undefined (reading 'beforeEach')\n\nWhen Cypress detects uncaught errors originating from your test code it will automatically fail the current test.\n\nCypress could not associate this error to any specific test.\n\nWe dynamically generated a new test to display this failure.\n    at ./cypress/integration/AllTests/ExperimentalTest.js (webpack:///./cypress/integration/AllTests/ExperimentalTest.js:11:9)\n    at __webpack_require__ (webpack:///webpack/bootstrap:19:0)\n    at 0 (http://localhost:53464/__cypress/tests?p=cypress/integration/AllTests/ExperimentalTest.js:458:18)\n    at __webpack_require__ (webpack:///webpack/bootstrap:19:0)\n    at eval (webpack:///webpack/bootstrap:83:0)\n    at eval (http://localhost:53464/__cypress/tests?p=cypress/integration/AllTests/ExperimentalTest.js:87:10)\n    at eval (<anonymous>)",
+            "diff": null
+          },
+          "uuid": "735111d1-87ab-4cfc-94a3-dbc5fd06eb6b",
+          "parentUUID": "c74965f3-8ac5-4559-b159-ea384cb3c927",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [],
+      "failures": [
+        "735111d1-87ab-4cfc-94a3-dbc5fd06eb6b"
+      ],
+      "pending": [],
+      "skipped": [],
+      "duration": 140,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "Automation Report",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "code": "false",
+        "autoOpen": "true",
+        "overwrite": "false",
+        "saveAllAttempts": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

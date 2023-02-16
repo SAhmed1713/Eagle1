@@ -1,0 +1,264 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-02-15T18:35:16.471Z",
+    "end": "2023-02-15T18:36:17.365Z",
+    "duration": 60894,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e59c55e2-97df-4a34-a4c8-e267fe37ebdd",
+      "title": "",
+      "fullFile": "cypress/integration/Eagle/TestApplication1.js",
+      "file": "cypress/integration/Eagle/TestApplication1.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c19aa78b-e399-4c5e-816f-e7caedab42aa",
+          "title": "login Page Scenarios",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login_Invalid userName",
+              "fullTitle": "login Page Scenarios Login_Invalid userName",
+              "timedOut": null,
+              "duration": 1735,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "e1563dc1-9d84-41c3-9b4f-1e1a61e3ad6a",
+              "parentUUID": "c19aa78b-e399-4c5e-816f-e7caedab42aa",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login_Invalid Password",
+              "fullTitle": "login Page Scenarios Login_Invalid Password",
+              "timedOut": null,
+              "duration": 1526,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "3a37ca64-1074-4d2c-91c9-d73a9da34d0b",
+              "parentUUID": "c19aa78b-e399-4c5e-816f-e7caedab42aa",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login Valid Credentials",
+              "fullTitle": "login Page Scenarios Login Valid Credentials",
+              "timedOut": null,
+              "duration": 1964,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "0700d497-2c43-47d5-8720-55594b23142a",
+              "parentUUID": "c19aa78b-e399-4c5e-816f-e7caedab42aa",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e1563dc1-9d84-41c3-9b4f-1e1a61e3ad6a",
+            "3a37ca64-1074-4d2c-91c9-d73a9da34d0b",
+            "0700d497-2c43-47d5-8720-55594b23142a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5225,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "ee521389-86d7-41a0-bae0-477fe8736944",
+          "title": "Testing pages",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Target_Flights_Page_Test",
+              "fullTitle": "Testing pages Target_Flights_Page_Test",
+              "timedOut": null,
+              "duration": 25077,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "4af419e0-6628-4812-a1f8-3aec456854af",
+              "parentUUID": "ee521389-86d7-41a0-bae0-477fe8736944",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "SMC_Flights_Page_Test",
+              "fullTitle": "Testing pages SMC_Flights_Page_Test",
+              "timedOut": null,
+              "duration": 20961,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "91ba68cb-2435-48bf-a8bd-29a1213fdc2a",
+              "parentUUID": "ee521389-86d7-41a0-bae0-477fe8736944",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "verifying Mission Details",
+              "fullTitle": "Testing pages verifying Mission Details",
+              "timedOut": null,
+              "duration": 6098,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "3ffaa839-fed2-4a0e-abf1-74abfcfb8210",
+              "parentUUID": "ee521389-86d7-41a0-bae0-477fe8736944",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4af419e0-6628-4812-a1f8-3aec456854af",
+            "91ba68cb-2435-48bf-a8bd-29a1213fdc2a",
+            "3ffaa839-fed2-4a0e-abf1-74abfcfb8210"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 52136,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b7526a97-699c-4952-a082-b7703d2c6dff",
+          "title": "logout of Application",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "logout_from_Application",
+              "fullTitle": "logout of Application logout_from_Application",
+              "timedOut": null,
+              "duration": 2190,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "4d62fbe1-ec6e-42c8-bcfa-3be853b9f03f",
+              "parentUUID": "b7526a97-699c-4952-a082-b7703d2c6dff",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4d62fbe1-ec6e-42c8-bcfa-3be853b9f03f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2190,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "Automation Report",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "code": "false",
+        "autoOpen": "true",
+        "overwrite": "false",
+        "saveAllAttempts": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

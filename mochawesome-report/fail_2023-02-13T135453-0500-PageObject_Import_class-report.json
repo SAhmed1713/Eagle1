@@ -1,0 +1,233 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 5,
+    "pending": 0,
+    "failures": 2,
+    "start": "2023-02-13T18:54:03.108Z",
+    "end": "2023-02-13T18:54:53.455Z",
+    "duration": 50347,
+    "testsRegistered": 7,
+    "passPercent": 71.42857142857143,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e5219eae-5e3a-46ef-85d4-bdad7328a07f",
+      "title": "",
+      "fullFile": "cypress/integration/AllTests/PageObject_Import_class.js",
+      "file": "cypress/integration/AllTests/PageObject_Import_class.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1b0199b4-153a-4c27-a662-68fe1d422256",
+          "title": "E2E_Testing",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login_Invalid userName",
+              "fullTitle": "E2E_Testing Login_Invalid userName",
+              "timedOut": null,
+              "duration": 1699,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "e765c518-7af0-4eea-8c4c-9d94d00e579a",
+              "parentUUID": "1b0199b4-153a-4c27-a662-68fe1d422256",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login_Invalid Password",
+              "fullTitle": "E2E_Testing Login_Invalid Password",
+              "timedOut": null,
+              "duration": 1453,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "98cad37b-c2ec-4b70-bcb5-39c76c61ddd4",
+              "parentUUID": "1b0199b4-153a-4c27-a662-68fe1d422256",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login Valid Credentials",
+              "fullTitle": "E2E_Testing Login Valid Credentials",
+              "timedOut": null,
+              "duration": 1897,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "c6cc8a21-97c2-4ac8-aa80-6919bb310ba0",
+              "parentUUID": "1b0199b4-153a-4c27-a662-68fe1d422256",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Target_Flights_Page_Test",
+              "fullTitle": "E2E_Testing Target_Flights_Page_Test",
+              "timedOut": null,
+              "duration": 7488,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 6000ms: Expected to find element: `undefined`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 6000ms: Expected to find element: `undefined`, but never found it.\n    at TargetFlightsPage.click_on_SMCFlights_Link (webpack:///./cypress/integration/SMC_POM/TargetFlightsPage.js:9:14)\n    at Context.eval (webpack:///./cypress/integration/AllTests/PageObject_Import_class.js:63:22)",
+                "diff": null
+              },
+              "uuid": "b373324b-0a25-41e1-92e3-befc4d9496fd",
+              "parentUUID": "1b0199b4-153a-4c27-a662-68fe1d422256",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "SMC_Flights_Page_Test",
+              "fullTitle": "E2E_Testing SMC_Flights_Page_Test",
+              "timedOut": null,
+              "duration": 21176,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "7cedc069-7822-43ed-959d-e07721b20817",
+              "parentUUID": "1b0199b4-153a-4c27-a662-68fe1d422256",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "verifying Mission Details",
+              "fullTitle": "E2E_Testing verifying Mission Details",
+              "timedOut": null,
+              "duration": 6069,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "279c9d8b-6f9c-44d5-93a8-15a99201865e",
+              "parentUUID": "1b0199b4-153a-4c27-a662-68fe1d422256",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "logout_from_Application",
+              "fullTitle": "E2E_Testing logout_from_Application",
+              "timedOut": null,
+              "duration": 7648,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 6000ms: Expected to find element: `undefined`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 6000ms: Expected to find element: `undefined`, but never found it.\n    at TargetFlightsPage.click_on_SMCFlights_Link (webpack:///./cypress/integration/SMC_POM/TargetFlightsPage.js:9:14)\n    at Context.eval (webpack:///./cypress/integration/AllTests/PageObject_Import_class.js:168:22)",
+                "diff": null
+              },
+              "uuid": "6dc7f4ad-3169-41c7-a18b-4ca33b450edc",
+              "parentUUID": "1b0199b4-153a-4c27-a662-68fe1d422256",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e765c518-7af0-4eea-8c4c-9d94d00e579a",
+            "98cad37b-c2ec-4b70-bcb5-39c76c61ddd4",
+            "c6cc8a21-97c2-4ac8-aa80-6919bb310ba0",
+            "7cedc069-7822-43ed-959d-e07721b20817",
+            "279c9d8b-6f9c-44d5-93a8-15a99201865e"
+          ],
+          "failures": [
+            "b373324b-0a25-41e1-92e3-befc4d9496fd",
+            "6dc7f4ad-3169-41c7-a18b-4ca33b450edc"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 47430,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "Automation Report",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "code": "false",
+        "autoOpen": "true",
+        "overwrite": "false",
+        "saveAllAttempts": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

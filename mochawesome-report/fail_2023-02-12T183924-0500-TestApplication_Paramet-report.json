@@ -1,0 +1,229 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 6,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-02-12T23:38:29.390Z",
+    "end": "2023-02-12T23:39:24.196Z",
+    "duration": 54806,
+    "testsRegistered": 7,
+    "passPercent": 85.71428571428571,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "4eefbc03-9492-492f-a420-61c8304792b7",
+      "title": "",
+      "fullFile": "cypress/integration/AllTests/TestApplication_Paramet.js",
+      "file": "cypress/integration/AllTests/TestApplication_Paramet.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b81c7e47-e956-4f4f-8f3e-2db5b635832a",
+          "title": "E2E_Testing",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Login_Invalid userName",
+              "fullTitle": "E2E_Testing Login_Invalid userName",
+              "timedOut": null,
+              "duration": 1936,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"/TestApplication_Paramet.js/E2E_Testing -- Login_Invalid userName.png\"\n      }\n    ]\n  ]\n}",
+              "code": "",
+              "err": {},
+              "uuid": "3b794a64-181a-40fb-8f17-ab411f7b2742",
+              "parentUUID": "b81c7e47-e956-4f4f-8f3e-2db5b635832a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login_Invalid Password",
+              "fullTitle": "E2E_Testing Login_Invalid Password",
+              "timedOut": null,
+              "duration": 1717,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"/TestApplication_Paramet.js/E2E_Testing -- Login_Invalid Password.png\"\n      }\n    ]\n  ]\n}",
+              "code": "",
+              "err": {},
+              "uuid": "87a2a9cc-0829-42d5-b186-de95e1c0dd52",
+              "parentUUID": "b81c7e47-e956-4f4f-8f3e-2db5b635832a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Login Valid Credentials",
+              "fullTitle": "E2E_Testing Login Valid Credentials",
+              "timedOut": null,
+              "duration": 2792,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"/TestApplication_Paramet.js/E2E_Testing -- Login Valid Credentials.png\"\n      }\n    ]\n  ]\n}",
+              "code": "",
+              "err": {},
+              "uuid": "e7682837-9337-439c-87f0-7b83f3deed0d",
+              "parentUUID": "b81c7e47-e956-4f4f-8f3e-2db5b635832a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Drop-down menu Test",
+              "fullTitle": "E2E_Testing Drop-down menu Test",
+              "timedOut": null,
+              "duration": 9699,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"/TestApplication_Paramet.js/E2E_Testing -- Drop-down menu Test.png\"\n      }\n    ]\n  ]\n}",
+              "code": "",
+              "err": {},
+              "uuid": "29fc53fe-db90-4878-9678-610888117f24",
+              "parentUUID": "b81c7e47-e956-4f4f-8f3e-2db5b635832a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Test all links on SMC Flights page",
+              "fullTitle": "E2E_Testing Test all links on SMC Flights page",
+              "timedOut": null,
+              "duration": 26373,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Failed screenshot\",\n        \"value\": \"/TestApplication_Paramet.js/E2E_Testing -- Test all links on SMC Flights page (failed).png\"\n      }\n    ]\n  ]\n}",
+              "code": "",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 6000ms: Expected to find content: 'Options' but never did.",
+                "estack": "AssertionError: Timed out retrying after 6000ms: Expected to find content: 'Options' but never did.\n    at Context.eval (webpack:///./cypress/integration/AllTests/TestApplication_Paramet.js:102:7)",
+                "diff": null
+              },
+              "uuid": "923dbbf2-6a65-457e-b916-bb634d6e39d0",
+              "parentUUID": "b81c7e47-e956-4f4f-8f3e-2db5b635832a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Get the mission details",
+              "fullTitle": "E2E_Testing Get the mission details",
+              "timedOut": null,
+              "duration": 10688,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-screenshots\",\n  \"value\": [\n    [\n      {\n        \"title\": \"Screenshot\",\n        \"value\": \"/TestApplication_Paramet.js/E2E_Testing -- Get the mission details.png\"\n      }\n    ]\n  ]\n}",
+              "code": "",
+              "err": {},
+              "uuid": "9cb459a6-80bd-47b8-b3a4-3ce6465398de",
+              "parentUUID": "b81c7e47-e956-4f4f-8f3e-2db5b635832a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "logout from Application",
+              "fullTitle": "E2E_Testing logout from Application",
+              "timedOut": null,
+              "duration": 655,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "a89d487f-e21e-4e9b-af23-a4677703713e",
+              "parentUUID": "b81c7e47-e956-4f4f-8f3e-2db5b635832a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3b794a64-181a-40fb-8f17-ab411f7b2742",
+            "87a2a9cc-0829-42d5-b186-de95e1c0dd52",
+            "e7682837-9337-439c-87f0-7b83f3deed0d",
+            "29fc53fe-db90-4878-9678-610888117f24",
+            "9cb459a6-80bd-47b8-b3a4-3ce6465398de",
+            "a89d487f-e21e-4e9b-af23-a4677703713e"
+          ],
+          "failures": [
+            "923dbbf2-6a65-457e-b916-bb634d6e39d0"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 53860,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "Automation Report",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "reportFilename": "[status]_[datetime]-[name]-report",
+        "code": "false",
+        "autoOpen": "true",
+        "overwrite": "false",
+        "saveAllAttempts": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
